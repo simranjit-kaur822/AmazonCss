@@ -1,0 +1,368 @@
+.container{
+    width: 100%;
+    height: 2500px;
+    background-color: #E3E6E6;
+}
+
+/*Nav Bar Section*/
+.amazonNavbar{
+    width: 100%;
+    height: 60px;
+    background-color: #131921;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.amazonLogo{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: 12px;
+    left: 15px;
+}
+.amazonLogoImage{
+    width: 100px;
+    height: 40px;
+}
+.amazonLogo:hover{
+    border: 1px solid white;
+}
+.location{
+    height: 40px;
+    width: 220px;
+    position: relative;
+    left: 130px;
+    bottom: 30px;
+}
+.location:hover{
+    border: 1px solid white;
+}
+.locationIcon{
+    height: 28px;
+    width: 30px;
+    position: relative;
+    top: 10px;
+}
+.locationText{
+    position: relative;
+    left: 30px;
+    bottom: 40px;
+
+}
+.text1{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+.text2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+}
+.searchbar{
+    height: 40px;
+    width: 730px;
+    border-radius: 5px;
+    position: relative;
+    left: 370px;
+    bottom: 70px;
+}
+.searchbar:hover{
+     border: 3px solid #FEBD69;
+}
+.options{
+    height: 38px;
+    background-color: gainsboro;
+    border: none;
+    position: relative;
+    left: 2px;
+    bottom: 1px;
+   
+}
+.searchArea{
+    height: 35px;
+    width: 600px;
+    border: none;
+    position: relative;
+    right: 2px;
+    bottom: 1px;
+    font-weight: bold;
+    font-size: small;
+}
+.searchButton{
+    height: 17px;
+    width: 17px;
+}
+.button{
+    height: 38px;
+    width: 38px;
+    background-color: #FEBD69;
+    border: none;
+    position: relative;
+    right: 6px;
+    top: 1px; 
+}
+.signIn{
+    height: 40px;
+    width: 120px;
+    position: relative;
+    left: 1130px;
+    bottom: 115px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.signIn:hover{
+     border: 1px solid white;
+}
+.text3{
+    font-size: 13px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text4{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.returnOption{
+    height: 40px;
+    width: 80px;
+    position: relative;
+    left: 1280px;
+    bottom: 165px;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+.returnOption:hover{
+    border: 1px white solid;
+}
+.text5{
+    color: white;
+    font-size: 14px;
+    
+}
+.text6{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.cart{
+    height: 40px;
+    width: 100px;
+    position: relative;
+    left: 1390px;
+    bottom: 212px;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+.cart:hover{
+    border: 1px white solid;
+}
+.cartIcon{
+    height: 35px;
+    width: 40px;
+}
+.text7{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    left: 40px;
+    bottom: 25px;
+}
+
+/* Category - Section */
+.category{
+    height: 50px;
+    width: 100%;
+    background-color: #1d2835;
+    position: relative;
+    top: 52px;
+    display: flex;
+     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.categoryType{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.categoryType:hover{
+    border: white 1px solid;
+}
+
+/* Hero Section*/
+.offerImg{
+    position: relative;
+    top: 50px;
+    width:100%;
+}
+
+/*shopping sections*/
+.shopSection{
+    height: 480px;
+    position: relative;
+    bottom: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    height: 400px;
+    width: 330px;
+    background-color: white;
+    padding: 25px 0px 0px 23px;
+}
+
+.title{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+}
+
+.img{
+    height: 260px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.appl{
+    height: 100px;
+    width: 150px;
+}
+.appText{
+    font-size: 13px;
+    position: relative;
+    bottom: 15px;
+}
+
+.allBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box2{
+    margin-left: 12px;
+}
+.box4{
+    margin-left: 12px;
+}
+.beautyMakeup{
+    width: 1465px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    left: 18px;
+    bottom: 330px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.link2{
+    text-decoration: none;
+    position: relative;
+    left: 670px;
+    bottom: 250px;
+}
+.image{
+    margin-right: 90px;
+    margin-top: 20px;
+}
+/* sign up section */
+
+.signupSection{
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    bottom: 320px;
+}
+
+.signupBorder{
+    height: 200px;
+    width: 1500px;
+    border: 1px gray solid;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+}
+
+.signupContent{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFD814;
+    width: 250px;
+    height: 32px;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    bottom: 12px;
+}
+.login{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 15px;
+}
+/* footer section */
+
+.amazonFooter{
+    height: 450px;
+    width: 100%;
+    background-color: #232F3E;
+     position: relative;
+    bottom: 320px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-top: 30px;
+}
+#footerHeading{
+    font-size: 16px;
+    font-weight: bold;
+}
+li{
+    margin: 15px;
+}
+
+/*footer Logo*/
+
+.footerLogo{
+    height: 150px;
+    width: 100%;
+    background-color: #232F3E;
+     position: relative;
+    bottom: 319px;
+}
+.footerimg{
+    height: 50px;
+    width: 150px;
+    position: relative;
+    top: 50px;
+    left: 660px;
+}
