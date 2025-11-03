@@ -1,2 +1,2 @@
 # AmazonCss
-This is amazon project is created with the html and css
+This is amazon project which is created with the html and css
